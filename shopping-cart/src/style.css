@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bebas+Neue&display=swap');
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+    font-family: 'Arvo', serif;
+
+}
+p,h1,h2,h3,h4,h5,h6,span,img,button
+{
+    padding: 0;
+    margin: 0;
+}
+.cart-menu-bg
+{
+    background-color: rgb(74, 173, 140);
+    padding: 20px;
+}
+.cart-menu
+{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    margin: 0 auto;
+
+}
+.total-cost
+{
+    width: 50%;
+    margin: 25px auto;
+    padding-left: 20px;
+}
+.singleItem
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.itemAmount p i
+{
+    cursor: pointer;
+}
+.line
+{
+    margin:10px 0px;
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+}
+.itemAmount {
+    padding-top: 24px;
+}
+.cal-cost
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.amount
+{
+    padding-left: 3px;
+}
+.remove {
+    letter-spacing: 2px;
+    color: #3f9793;
+    font-size: 15px;
+    cursor: pointer;
+}
+.item-name-price
+{
+    padding-top: 10px;
+    padding-left: 20px;
+    line-height:25px;
+}
+.itemDetails
+{
+    display: flex;
+    justify-content: flex-start;
+}
+.itemDetails img
+{
+    width: 82px;
+    height: 82px;
+}
+.cart-item
+{
+    width: 50%;
+    margin: 0 auto;
+}
+.cart-menu-right
+{
+    position: relative;
+}
+.cart-menu-right img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   
+}
+.cart-item h1
+{
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+.cart-menu-right span {
+    font-size: 18px;
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+}
+.brand
+{
+    color: white;
+}
